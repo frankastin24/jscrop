@@ -2,16 +2,17 @@
 
 Usage:
 
-`const options = { 
-image: "image_url",
-add_styles: true,
-upload: true,
-upload_url: "upload_url",
-upload_fields :
-[
-['field_1_key' , 'field_1_value'],
-['field_2_key' , 'field_2_value']
-],
-filename : 'filename'
+```js
+const options = {
+  image: "image_url",
+  add_styles: true,
+  upload: true,
+  upload_url: "upload_url",
+  upload_fields: [
+    ["field_1_key", "field_1_value"],
+    ["field_2_key", "field_2_value"],
+  ],
+  filename: "filename",
 };
-JSCrop.create(options);`
+JSCrop.create(options);
+```
