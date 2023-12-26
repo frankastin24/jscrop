@@ -13,6 +13,8 @@ const options = {
     ["field_2_key", "field_2_value"],
   ],
   filename: "filename",
+  json: true,
+  callback: (data) => {},
 };
 JSCrop.create(options);
 ```
