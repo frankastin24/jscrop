@@ -1,4 +1,4 @@
-#JS Crop - Javascript image cropper with file upload
+# JS Crop - Javascript image cropper with file upload
 
 Usage:
 
