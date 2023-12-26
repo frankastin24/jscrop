@@ -2,7 +2,7 @@
 
 Usage:
 
-`const options = {`
+`const options = { 
 image: "image_url",
 add_styles: true,
 upload: true,
